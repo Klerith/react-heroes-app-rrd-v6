@@ -24,6 +24,7 @@ export const SearchScreen = () => {
 
 
     const handleSearch = (e) => {
+
         e.preventDefault();
         navigate(`?q=${ searchText }`)
     }
